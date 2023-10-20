@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <header></header>
+    <section id="form">
+      <form class="main-form">
+        <input class="input english" type="text" placeholder="English word" />
+        <input
+          class="input ukrainian"
+          type="text"
+          placeholder="Ukrainian word"
+        />
+        <button class="button" type="submit">Add word</button>
+      </form>
+    </section>
+
+    <section class="section" id="section-render">
+      <div class="container">
+        <ul class="list" id="render"></ul>
+      </div>
+    </section>
+
+    <button class="load-more" type="button">Load more</button>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
