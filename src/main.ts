@@ -5,7 +5,7 @@ import { getWords } from "./API/API.ts";
 
 const listRender = document.querySelector<HTMLDivElement>("#render");
 
-await getWords();
+getWords();
 
 type Word = {
   eng: string;
